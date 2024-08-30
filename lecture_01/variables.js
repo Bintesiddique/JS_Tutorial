@@ -13,15 +13,6 @@
 // fullName = "Areeba  s";
 // console.log(fullName);
 
-// numbers value
-age = 20;
-console.log(age);
-// null value
-x = null;
-console.log(x);
-// undefined value
-y = undefined;
-console.log(y);
 // by using let
 let fullName = "Ariba";
 console.log(fullName);
@@ -31,3 +22,10 @@ console.log(f_name);
 // by using constant variable
 const PI = 3.14
 console.log(PI);
+
+//use console table
+const Id = 123;
+ let Name = "Ariba";
+var Adress = "Layyah";
+var Email= "ariba@gmail.com";
+console.table([Id, Name, Adress, Email]);
