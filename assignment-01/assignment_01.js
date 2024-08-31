@@ -47,37 +47,7 @@ isAdmin = false;
 console.log(String(true)); // "true"
 console.log(Number("123")); // 123
 console.log(Boolean(0)); // false
-console.log(String(null)); // "null"
-
-
-// User Input Program
-
-
-let num1 = prompt("Enter first number:");
-let num2 = prompt("Enter second number:");
-let result = Number(num1) + Number(num2);
-// console.log(`Result: ${result}`);
-
-let num3 = prompt("Enter third number:");
-result *= Number(num3);
-result /= 2;
-// console.log(`Final result: ${result}`);
-
-
-// Compare Numbers Function
-
-
-function compareNumbers(a, b) {
-  if (a > b) {
-    return "a is greater";
-  } else if (a < b) {
-    return "a is less";
-  } else {
-    return "a is equal to b";
-  }
-}
-
-// console.log(compareNumbers(5, 10));
+console.log(String(null)); // "null";
 
 
 // Simple Calculator Function
@@ -99,17 +69,3 @@ function calculator(a, b, operator) {
 }
 
 // console.log(calculator(5, 10, "+"));
-//program
-for (let i = 1; i <= 100; i++) {
-    let output = "";
-  
-    if (i % 3 === 0) {
-      output += "Fizz";
-    }
-  
-    if (i % 5 === 0) {
-      output += "Buzz";
-    }
-  
-    console.log(output || i);
-  }
