@@ -83,3 +83,21 @@ function calculator(a, b, operator) {
 }
 
 // console.log(calculator(5, 10, "+"));
+
+//question_10
+
+//program
+
+for (let i = 1; i <= 100; i++) {
+    let output = "";
+  
+    if (i % 3 === 0) {
+      output += "Fizz";
+    }
+  
+    if (i % 5 === 0) {
+      output += "Buzz";
+    }
+  
+    console.log(output || i);
+  }
